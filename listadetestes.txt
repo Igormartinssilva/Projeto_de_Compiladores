@@ -1,0 +1,37 @@
+//ideias para testar e que tiver entre @@ alguma coisa escrita @@ é um comentário meu
+
+oi=>        @@vazio, passar uma funçao comente com nome e retorno void @@
+nomeFunc=>int        @@ função que retorna int @@
+nomeFunc22=>int        @@ função que tem numero no nome retorna int @@
+nomeFunc=guapore<-int>      @@ função que recebe um parametro e retona void @@
+nomeFunc=guapore<-int>int       @@ função que recebe um parametro e retona int @@
+nomeFunc=guapore<-int>float
+nomeFunc = guapore<-int |butia <- float > float
+nomeFunc = guap1ore13 <-int |butia22 <- float > float
+oi22=gaupo<-int | butia <- int | bento<-float >float
+
+oi22=>float
+{
+    
+}
+
+oi22=>float
+{
+ int oi;;; @@ nao sei se pode ou nao ter varias ';' com negiocio vazio @@
+ 
+}
+
+oi22=>float
+{
+    ;
+}
+
+oi22=>float
+{
+ int oi;lindu;gostoso69;
+}
+
+oi22=>float
+{
+ int oi;lindu<=22;gostoso69;
+}
