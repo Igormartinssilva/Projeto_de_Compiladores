@@ -1,4 +1,4 @@
 oi22=>float
 {
- int oi;lindu<=22;gostoso69;
+ int oi;
 }

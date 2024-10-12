@@ -33,7 +33,7 @@ lista_de_funcoes: lista_de_funcoes funcao | funcao;
 
 funcao: cabecalho corpo;
 
-cabecalho: TK_IDENTIFICADOR '=' lista_de_parametros '>' tipos_retorno | /*vazio*/;
+cabecalho: TK_IDENTIFICADOR '=' lista_de_parametros '>' tipos;
 
 /*
 A lista de parâmetros é composta por 
@@ -47,9 +47,9 @@ seguido do caractere
 menor ’<’, seguido do caractere menos ’-’, seguido
 do tipo.
 */
-parametros: TK_IDENTIFICADOR '<' '-' tipos_retorno  ;
+parametros: TK_IDENTIFICADOR '<' '-' tipos  ;
 
-tipos_retorno: TK_PR_INT | TK_PR_FLOAT;
+tipos: TK_PR_INT | TK_PR_FLOAT;
 
 /*
 teste para o corpo, falta implementar
@@ -92,7 +92,9 @@ caso sua declaração seja seguida do operador com-
 posto TK_OC_LE e de um literal.
 */
 tipo_lit: TK_LIT_FLOAT | TK_LIT_INT ;
-declaracao_var: tipos_retorno TK_IDENTIFICADOR  | TK_IDENTIFICADOR ';' | TK_IDENTIFICADOR TK_OC_LE tipo_lit ;
+declaracao_var: tipos var | ',' declaracao_var;
+var: TK_IDENTIFICADOR | TK_IDENTIFICADOR TK_OC_LE tipo_lit ;
+
 
 atribuicao: ;
 
