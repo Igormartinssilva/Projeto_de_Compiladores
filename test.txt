@@ -1,4 +1,0 @@
-oi22=>float
-{
- int oi;
-}
